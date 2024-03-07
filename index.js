@@ -19,6 +19,10 @@ app.get("/", (req, res) => {
     res.send("soy el server :)");
 });
 
+app.get("/prueba", (req, res) => {
+    res.json({message: 'Prueba'})
+})
+
 app.post("/create_preference", async (req, res) => {
     console.log(req.body);
     try {
