@@ -34,9 +34,9 @@ app.post("/create_preference", async (req, res) => {
                 currency_id: "ARS",
             }],
             back_urls: {
-                success: "http://localhost:5173/success",
-                failure: "http://localhost:5173/failure",
-                pending: "http://localhost:5173/pending"
+                success: "https://nutri-track.netlify.app/success",
+                failure: "https://nutri-track.netlify.app/failure",
+                pending: "https://nutri-track.netlify.app/pending"
                 
             },
             auto_return: "approved",
